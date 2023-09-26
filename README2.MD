@@ -1,23 +1,25 @@
-1. Init a new repo
+1. Go to the directory you want, and init it as a repo
 
- ![](init.PNG)
+    ![](init.PNG)
 
-2. Commit the things
+2. Add all files you want uploaded to staging area and then commit
 
     ![](commit.PNG)
-3.  Gen Key
+3.  Generate the private and public keys used for auth
 
     ![](keygen.PNG)
-4. Git hub key
+4. Give your SSH key a title and paste your public key into the "Key" field. Click the "Add SSH key" button to add the key to your GitHub account.
 
     ![](github_key.PNG)
-5. ssh agent
+5. Add your SSH key to SSH agent. This will help with the authentication
 
     ![](SSH_agent.PNG)
 
-6. remote
+6. Update the Git Remote URL and Use `git remote -v` to ensure that you're connected via SSH
  
     ![](remote.PNG)
+
+7. Push to github!
 
 
 
