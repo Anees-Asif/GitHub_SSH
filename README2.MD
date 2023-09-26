@@ -8,7 +8,7 @@
 3.  Generate the private and public keys used for auth
 
     ![](keygen.PNG)
-4. Give your SSH key a title and paste your public key into the "Key" field. Click the "Add SSH key" button to add the key to your GitHub account.
+4. Give your SSH key a title and paste your public key into the "Key" field. Click the "Add SSH key" button to add the key to your GitHub account. Use `cat ~/.ssh/id_rsa.pub | cli`
 
     ![](github_key.PNG)
 5. Add your SSH key to SSH agent. This will help with the authentication
